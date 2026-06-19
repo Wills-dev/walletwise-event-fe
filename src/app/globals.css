@@ -119,6 +119,7 @@
 
 body {
   font-family: var(--font-inter), sans-serif;
+  color: #262626;
 }
 
 @layer base {

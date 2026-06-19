@@ -19,7 +19,8 @@ const EventInfoWrapper = ({ eventId }: { eventId: string }) => {
         <Container>
           <EventToggle tabs={tabs} tab={tab} onClick={setTab} />
           <div className="flex justify-center py-10">
-            <EventHighlights />
+            {tab === "Event highlights" && <EventHighlights />}
+            {tab === " Book ticket" && <></>}
           </div>
         </Container>
       </div>
