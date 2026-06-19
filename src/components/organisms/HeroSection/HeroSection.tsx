@@ -21,9 +21,7 @@ const HeroSection = () => {
                 <div className="flex items-center gap-2  font-semibold text-sm">
                   <span>NEXT UP</span> • <span>SAT 10 MAY 2025</span>
                 </div>
-                <h1 className="sm:text-[48px] text-[35px] leading-[100%] tracking-normal font-extrabold">
-                  AFROBEATS FESTLAGOS 2025
-                </h1>
+                <h1 className=" ">AFROBEATS FESTLAGOS 2025</h1>
                 <Link
                   href={"/"}
                   className="flex items-center gap-2 bg-white border border-[#E5E5E5] p-3 rounded-[10px] text-[#262626] w-fit"
