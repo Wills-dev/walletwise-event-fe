@@ -44,7 +44,7 @@ const Footer = () => {
                 ))}
               </div>
             </div>
-            <div className="flex gap-30.25 flex-wrap">
+            <div className="flex md:gap-30.25 sm:gap-20 gap-10 flex-wrap">
               {footerLinks?.map((item) => (
                 <div key={item?.title} className="space-y-4">
                   <h6 className="text-[#262626] font-semibold">
@@ -65,7 +65,7 @@ const Footer = () => {
               ))}
             </div>
           </div>
-          <div className="flex items-center justify-between gap-10">
+          <div className="flex items-center justify-between gap-4 flex-wrap">
             <p className="text-[#737373] text-xs font-medium">
               © 2026 WalletWise Ltd. All right reserved
             </p>

@@ -84,3 +84,30 @@ export const footerLinks = [
     ],
   },
 ];
+
+export const dummyEvents = [
+  {
+    imgUrl: "/assets/images/rekado.png",
+    category: "Concert",
+    amount: "25,000",
+    location: "Eko Convention Centre, VI",
+    date: "Fri 16 May",
+    eventName: "Reekado Banks - Live in Abuja",
+  },
+  {
+    imgUrl: "/assets/images/peruzzi.png",
+    category: "Concert",
+    amount: "25,000",
+    location: "Eko Convention Centre, VI",
+    date: "Fri 16 May",
+    eventName: "Perruzi - Live in Abuja",
+  },
+  {
+    imgUrl: "/assets/images/pageant.png",
+    category: "Beauty Pageant",
+    amount: "25,000",
+    location: "Eko Convention Centre, VI",
+    date: "Fri 16 May",
+    eventName: "Miss indigenous Nigeria",
+  },
+];
