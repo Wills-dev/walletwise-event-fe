@@ -122,6 +122,48 @@ body {
   color: #262626;
 }
 
+.font-seaweed_script {
+  font-family: var(--font-seaweed_script), sans-serif;
+}
+
+.font-cinzel_decorative {
+  font-family: var(--font-cinzel_decorative), sans-serif;
+}
+
+.font-cinzel {
+  font-family: var(--font-cinzel), sans-serif;
+}
+
+.font-Playfair_Display {
+  font-family: var(--font-playfair_display), sans-serif;
+}
+
+.font-fraunces {
+  font-family: var(--font-fraunces), sans-serif;
+}
+
+.font-geist {
+  font-family: var(--font-geist), sans-serif;
+}
+
+.font-freehand {
+  font-family: var(--font-freehand), sans-serif;
+}
+
+.font-Meie_Script {
+  font-family: var(--font-meie_script), sans-serif;
+}
+
+.font-bebas_neue {
+  font-family: var(--font-bebas_neue);
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  position: absolute;
+  right: 10px;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

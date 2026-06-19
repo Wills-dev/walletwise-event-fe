@@ -6,6 +6,7 @@ import Container from "@/components/atom/Container/Container";
 import EventToggle from "@/components/atom/EventToggle/EventToggle";
 import EventInfoMain from "@/components/molecules/EventInfoMain/EventInfoMain";
 import EventHighlights from "@/components/molecules/EventHighlights/EventHighlights";
+import BookTicket from "@/components/molecules/BookTicket/BookTicket";
 
 const EventInfoWrapper = ({ eventId }: { eventId: string }) => {
   const [tab, setTab] = useState("Event highlights");
@@ -20,7 +21,7 @@ const EventInfoWrapper = ({ eventId }: { eventId: string }) => {
           <EventToggle tabs={tabs} tab={tab} onClick={setTab} />
           <div className="flex justify-center py-10">
             {tab === "Event highlights" && <EventHighlights />}
-            {tab === " Book ticket" && <></>}
+            {tab === "Book ticket" && <BookTicket />}
           </div>
         </Container>
       </div>
