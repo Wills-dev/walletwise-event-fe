@@ -1,4 +1,7 @@
 import SummaryCard from "@/components/atom/SummaryCard/SummaryCard";
+import EventInfo from "../EventInfo/EventInfo";
+import EventLocation from "../EventLocation/EventLocation";
+import EventLineUp from "../EventLineUp/EventLineUp";
 
 const EventHighlights = () => {
   return (
@@ -25,7 +28,25 @@ const EventHighlights = () => {
           />
         </div>
       </div>
-      <div className=""></div>
+      <div className="space-y-12">
+        <div className="space-y-3.5">
+          <h6 className=" font-semibold">About this event</h6>
+          <p className="">
+            Burna Boy returns to Lagos for a full-scale live show at Eko
+            Convention Centre, built for fans who want the arena version of his
+            biggest records. Expect a live band, extended production, and a
+            setlist spanning Ye, Last Last, City Boys, and new material. <br />
+            <br /> Doors open early for check-in and warm-up DJ sets. Ticket
+            holders should arrive with a valid booking confirmation and ID so
+            entry stays smooth before the headline performance starts.
+          </p>
+        </div>
+        <div className="flex gap-4.75 flex-wrap">
+          <EventInfo />
+          <EventLocation />
+        </div>
+        <EventLineUp />
+      </div>
     </div>
   );
 };

@@ -10,7 +10,7 @@ const HeroSection = () => {
           <div
             className="h-116.25 w-full rounded-[24px] overflow-hidden"
             style={{
-              background: "url('/assets/images/hero-bg.jpg')",
+              background: "url('/assets/images/burna.png')",
               backgroundPosition: "center",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",

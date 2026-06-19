@@ -17,6 +17,7 @@ const EventWrapper = ({ title = "Upcoming Events" }: { title?: string }) => {
             date={item?.date}
             eventName={item?.eventName}
             location={item?.location}
+            link={item?.link}
           />
         ))}
       </div>

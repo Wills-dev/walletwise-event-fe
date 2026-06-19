@@ -8,6 +8,7 @@ const EventCard = ({
   location,
   date,
   eventName,
+  link,
 }: {
   imgUrl: string;
   category: string;
@@ -15,12 +16,10 @@ const EventCard = ({
   location: string;
   date: string;
   eventName: string;
+  link: string;
 }) => {
   return (
-    <Link
-      href={"/event/info/1"}
-      className="max-w-104 w-full min-w-72.5 space-y-3"
-    >
+    <Link href={link} className="max-w-104 w-full min-w-72.5 space-y-3">
       <div className="border border-[#E0E0E0] w-full sm:h-104 h-72.5 overflow-hidden relative rounded-[16px]">
         <Image
           src={imgUrl}

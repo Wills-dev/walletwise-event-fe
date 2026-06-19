@@ -93,6 +93,7 @@ export const dummyEvents = [
     location: "Eko Convention Centre, VI",
     date: "Fri 16 May",
     eventName: "Reekado Banks - Live in Abuja",
+    link: "/reekado",
   },
   {
     imgUrl: "/assets/images/peruzzi.png",
@@ -101,6 +102,7 @@ export const dummyEvents = [
     location: "Eko Convention Centre, VI",
     date: "Fri 16 May",
     eventName: "Perruzi - Live in Abuja",
+    link: "/peruzzi",
   },
   {
     imgUrl: "/assets/images/pageant.png",
@@ -109,5 +111,6 @@ export const dummyEvents = [
     location: "Eko Convention Centre, VI",
     date: "Fri 16 May",
     eventName: "Miss indigenous Nigeria",
+    link: "/miss-indidenous-nigeria",
   },
 ];
