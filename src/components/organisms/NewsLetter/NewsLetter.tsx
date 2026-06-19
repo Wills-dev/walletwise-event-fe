@@ -14,13 +14,13 @@ const NewsLetter = () => {
                 Be the first to know
               </p>
             </div>
-            <form className="max-w-84.25 w-full min-w-72.5 border border-[#E5E5E5] flex items-center gap-11 bg-white pr-1 py-1 pl-4 rounded-[12px]">
+            <form className="max-w-84.25 w-full border border-[#E5E5E5] flex sm:items-center max-sm:flex-col sm:gap-11 gap-2  bg-white pr-1 py-1 pl-4 rounded-[12px]">
               <input
                 type="text"
                 className="h-6 flex-1 w-full bg-inherit outline-none placeholder:text-[#737373] font-medium"
                 placeholder="Enter email address"
               />
-              <button className="bg-[#5A27CC] text-white py-2 px-4 rounded-[10px] text-sm">
+              <button className="bg-[#5A27CC] text-white py-2 px-4 rounded-[10px] text-sm w-fit">
                 Notify me
               </button>
             </form>
